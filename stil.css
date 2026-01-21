@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color: maroon;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	line-weight: 18px;
+	width: 600px;
+	background-color: cornsilk;
+	padding: 20px;	
+}
+h2 {
+	color: palevioletred;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color:cornsilk;
+	padding: 20px;	
+}
+h1 {
+	color: maroon;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+body{
+	background-color: antiquewhite;
+}
+a:link {
+	color: black;
+	background-color:beige;
+	padding: 5px;
+	line-height: 40px;
+	border:1px solid thick
+}
+a:hover{
+	background-color:darkgray;
+}
+a:active{
+	color:hotpink;
+}
+img {
+	height:350px;
+}
+span {
+	color: #963769;
+}
