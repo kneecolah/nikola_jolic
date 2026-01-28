@@ -1,4 +1,14 @@
 @charset "utf-8";
+@font-face {
+  font-family: "NikolaJolic";
+  src: url("font/NikolaJolic.ttf") format("truetype");
+	font-size: 50px;
+  font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
 /* CSS Document */
 p {
 	color: maroon;
@@ -7,8 +17,9 @@ p {
 	line-weight: 18px;
 	width: 600px;
 	background-color: cornsilk;
-	padding: 20px;	
-}
+	padding: 20px;
+	margin: 20px auto;
+	text-align:center;}
 h2 {
 	color: palevioletred;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -18,27 +29,53 @@ h2 {
 h1 {
 	color: maroon;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 35px;
+	 
+
+}
+span{
+	color: maroon;
+	font-family: "NikolaJolic";
+}
+.mojfont {
+	font-family: "NikolaJolic";
+font-size:50px;
 }
 body{
-	background-color: antiquewhite;
-}
-a:link {
-	color: black;
-	background-color:beige;
-	padding: 5px;
+	
+	background-image: url("slikice/neoptimizirane/Adobe Express 2026-01-28 12.05.59.png");
+ 
+	}
+a {
+	color: beige;
+	text-decoration:overline;
+	background-color: lightpink;
+	padding: 8px;
 	line-height: 40px;
-	border:1px solid thick
+	border:5px dashed #D65690;
+	align-content: center;
 }
 a:hover{
-	background-color:darkgray;
+	background-color:#914B75;
+
 }
-a:active{
-	color:hotpink;
-}
+
 img {
 	height:350px;
+	align-items: center;
 }
+
 span {
 	color: #963769;
 }
+.content {
+    text-align: center;
+}
+.top5 {
+  background: rgba(255, 248, 220, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 20px 30px;
+  margin: 0 auto;
+  width: fit-content;
+	border-radius: 12px;}
